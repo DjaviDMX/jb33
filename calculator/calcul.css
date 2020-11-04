@@ -1,0 +1,146 @@
+body {
+    background: url(https://cutewallpaper.org/21/calculator-background/Calculator-Template-Backgrounds-For-PowerPoint-Business-.jpg);
+    background-color: #5B8869;
+    background-size: 100%;
+    font-family: ‘Aldrich’;font-size: 22px;
+   }
+   
+
+   .container{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       height: 55vh;
+       width: 100vw;
+   }
+
+   h1{
+       margin-top: 250px;
+       margin-left: 450px;
+   }
+   #container{
+       width: 300px;
+       padding: 8px 8px 20px 8px;
+       margin: 50px;
+       margin-left: 400px;
+       background-color:#5B8869 ;
+       border-radius: 15px;
+       border-top: 2px solid #FFF;
+       border-right: 2px solid #FFF;
+       border-bottom: 2px solid #C1C1C1;
+       border-left: 2px solid #C1C1C1;
+       box-shadow: -3px 3px 7px rgba(0, 0, 0, .6), inset -100px 0px 100px rgba(255, 255, 255, .5);
+   }
+
+   #display {
+    display: block;
+    margin: 15px auto;
+    height: 42px;
+    width: 174px;
+    padding: 0 10px;
+    border-radius: 4px;
+    border-top: 2px solid #C1C1C1;
+    border-right: 2px solid #C1C1C1;
+    border-bottom: 2px solid #FFF;
+    border-left: 2px solid #FFF;
+    background-color: #FFF;
+    box-shadow: inset 0px 0px 10px #030303, inset 0px -20px 1px rgba(150, 150, 150, .2);
+    font-size: 28px;
+    color: #666;
+    text-align: right;
+    font-weight: 400;
+   }
+
+   .button {
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 0.5px;
+    width: 42px;
+    height: 42px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+   }
+
+   .calculButtons {
+    margin: 2px 2px 6px 2.02px;
+    color: lightblue;
+    text-shadow: -1px -1px 0px #44006F;
+    background-color: #7f7771;
+    border-top: 2px solid #C1C1C1;
+    border-right: 2px solid #C1C1C1;
+    border-bottom: 2px solid #181818;
+    border-left: 2px solid #181818;
+    box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #2E2E2E;
+   }
+
+   .reqemler {
+    color: #181818;
+    text-shadow: 1px 1px 0px #FFF;
+    background-color: #EBEBEB;
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid #C1C1C1;
+    border-left: 2px solid #C1C1C1;
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #DCDCDC;
+   }
+
+   .reqem0{
+    color: #181818;
+    text-shadow: 1px 1px 0px #FFF;
+    background-color: #EBEBEB;
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid #C1C1C1;
+    border-left: 2px solid #C1C1C1;
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #DCDCDC;
+   }
+
+   .calculButtonsequal{
+    color: lightblue;
+    text-shadow: -1px -1px 0px #44006F;
+    background-color: #7f7771;
+    border-top: 2px solid #C1C1C1;
+    border-right: 2px solid #C1C1C1;
+    border-bottom: 2px solid #181818;
+    border-left: 2px solid #181818;
+    box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #2E2E2E;
+   }
+
+   .calculButtonsbol{
+    color: lightblue;
+    text-shadow: -1px -1px 0px #44006F;
+    background-color: #7f7771;
+    border-top: 2px solid #C1C1C1;
+    border-right: 2px solid #C1C1C1;
+    border-bottom: 2px solid #181818;
+    border-left: 2px solid #181818;
+    box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #2E2E2E;
+    margin-left: 2px
+   }
+
+   .reqemler:hover,
+    .calculButtons:hover,
+    .reqem0:hover,
+    #clearButton:hover {
+    background-color: #DEFEC8;
+    box-shadow: 0px 0px 2px #FFBA75, inset 0px -20px 1px limegreen;
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid lime;
+    border-left: 2px solid limegreen;
+    }
+
+    #clearButton {
+    color: #FFF;
+    margin-right: 2px;
+    text-shadow: -1px -1px 0px #44006F;
+    background-color: #D20000;
+    border-top: 2px solid #FF8484;
+    border-right: 2px solid #FF8484;
+    border-bottom: 2px solid #800000;
+    border-left: 2px solid #800000;
+    box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #B00000;
+    }
