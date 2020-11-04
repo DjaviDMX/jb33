@@ -1,0 +1,113 @@
+.card{
+    margin: 5px;
+    height: 200px;
+    text-align: center;
+    display: grid;
+    text-align: center;
+    font-size: large;
+}
+
+
+
+.header{
+    display: block;
+}
+
+.header-wrap {
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    min-height: 105px;
+}
+
+.v-header:not(.v-header-theme) {
+    background-image: linear-gradient(0deg,rgba(0,0,0,0) 10%,rgba(0,0,0,.95) 98%);
+}
+
+.v-header {
+    width: 100%!important;
+    background-color: transparent;
+    z-index: 1000;
+    padding: 0;
+    margin: 0;
+    transition: top .25s ease;
+}
+
+header {
+    position: relative;
+    background: #fff;
+}
+
+.v-header-wrap {
+    min-height: 92px;
+    color: transparent;
+}
+
+.v-header-wrap-inner {
+    width: 994px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+body{
+    display: block;
+}
+
+div{
+    display: block;
+}
+
+.content-about{
+    text-align: center;
+    margin-top: 555px;
+    width: 1110px;
+    margin-left: 120px;
+}
+
+.content-blog{
+    text-align: center;
+    margin-top: 100px;
+    width: 1110px;
+    margin-left: 120px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.top{
+    top: 0;
+}
+
+.top{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.content-sale{
+    text-align: center;
+    width: 1110px;
+    margin-left: 120px;
+}
+
+a{
+    text-decoration: initial;
+}
+
+.homepage{
+    width: 1110px;
+    margin-left: 120px;
+}
+
+.content-subscribe{
+    width: 1110px;
+    margin-left: 120px;
+}
+
+.content-top{
+    width: 1110px;
+    margin-left: 120px;
+}
